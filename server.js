@@ -7,7 +7,7 @@ const authRoutes = require("./routes/authRoute.js");
 const categoryRoutes = require("./routes/categoryRoutes.js");
 const productRoutes = require("./routes/productRoutes.js");
 const cors = require("cors");
-import path from "path";
+const path = require("path");
 const bodyParser = require("body-parser");
 
 //configure env
